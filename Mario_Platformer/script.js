@@ -120,7 +120,7 @@ function create() {
   this.physics.add.overlap(this.player, fruits, eatFruit, null, this);
 
   this.cameras.main.setBounds(0, 0, W, H);
-  this.physics.world.setBounds(0, 0, W, H);
+  this.physics.worBounds(0,ld.set 0, W, H);
 
   this.cameras.main.startFollow(this.player, true, true);
   this.cameras.main.setZoom(1.5);
